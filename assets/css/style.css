@@ -38,41 +38,10 @@ body {
   color: white;
 }
 
-#first-text {
-  margin-top: 8%;
-}
-#second-text {
-  margin-top: 3%;
+#content {
+  margin-top: 20%;
 }
 
-
-/* #image {
-  height: 100%;
-  position: relative;
-  top: 14%;
-  right: 25%;
-} */
-/* .centered {
-  color: rgba(248, 248, 247, 0.815);
-  position: relative;
-  top: 15%;
-  left: 63%;
-  transform: translate(-50%, -50%);
-  font-size: 75%;
-} */
-#learn-more {
-  font-size: 35%;
-  color: red;
-}
-#name {
-  font-size: 150%;
-}
-
-.about-me {
-  position: relative;
-  margin-top: 5%;
-  font-size: 20px;
-}
 a {
   font-size: 20px;
   color: red;
@@ -91,4 +60,3 @@ a:link {
 .bio:hover {
   text-decoration: underline;
 }
-
