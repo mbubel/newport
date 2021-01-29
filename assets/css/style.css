@@ -35,20 +35,34 @@ body {
   background-color: black;
   font-family: "Dosis";
   font-size: 50px;
+  color: white;
 }
-#image {
+
+#first-text {
+  margin-top: 8%;
+}
+#second-text {
+  margin-top: 3%;
+}
+
+
+/* #image {
   height: 100%;
   position: relative;
   top: 14%;
   right: 25%;
-}
-.centered {
+} */
+/* .centered {
   color: rgba(248, 248, 247, 0.815);
-  position: absolute;
+  position: relative;
   top: 15%;
   left: 63%;
   transform: translate(-50%, -50%);
   font-size: 75%;
+} */
+#learn-more {
+  font-size: 35%;
+  color: red;
 }
 #name {
   font-size: 150%;
@@ -78,13 +92,3 @@ a:link {
   text-decoration: underline;
 }
 
-#icons {
-  position: absolute;
-  left: 50%;
-}
-
-#icons {
-  position: absolute;
-  text-align: center;
-  bottom: 44%;
-}
