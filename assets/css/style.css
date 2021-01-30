@@ -60,6 +60,9 @@ body {
 #learn-more:hover {
   text-decoration: underline;
 }
+#bio-test {
+  margin-top: 15%;
+}
 a {
   font-size: 20px;
   color: red;
