@@ -15,7 +15,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-sm">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
@@ -39,27 +39,36 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row" id="content">
-        <div class="col-sm-5">
-          <img src="./assets/images/homepage.png" alt="just me" height="50%" />
+    <div class="container position-relative" id="text">
+      <div class="row">
+        <div class="col-sm">
+          <img
+            src="./assets/images/homepage.png"
+            alt="just me"
+            class="just-me"
+          />
         </div>
-        <div class="col-sm-7">
-          <p>Hi, I'm Michael.</p>
+        <div class="col-sm">
+          <p>Hi, I'm <span style="color: red">Michael.</span></p>
           <p>
-            I'm currently enrolled in the UCSD Full Stack Developer course and
-            projected to graduate in March of 2021.
+            I'm currently enrolled in the
+            <span style="color: red">UCSD Full Stack Development</span> program
+            and am projected to graduate in March of 2021.
           </p>
-          <p>Learn more ></p>
-          <p>
-            <a href="https://www.facebook.com/heyitsmichaelbubel">
-              <img src="./assets/images/Facebook-icon-1.png" height="25px" /></a
-            > <a href="https://github.com/mbubel"
-              ><img src="./assets/images/GitHub-Mark.png" height="25px" /></a
-            > <a href="https://www.linkedin.com/in/michael-bubel-b95268155/"
-              ><img src="./assets/images/Linkedin.png" height="25px"
-            /></a>
-          </p>
+          <p id="learn-more"><a href="./bio.html">Learn more ></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <a href="https://www.facebook.com/heyitsmichaelbubel">
+            <img src="./assets/images/Facebook-icon-1.png" class="icons"
+          /></a>
+          <a href="https://github.com/mbubel"
+            ><img src="./assets/images/GitHub-Mark.png"class="icons"
+          /></a>
+          <a href="https://www.linkedin.com/in/michael-bubel-b95268155/"
+            ><img src="./assets/images/Linkedin.png"class="icons"
+          /></a>
         </div>
       </div>
     </div>

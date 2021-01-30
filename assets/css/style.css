@@ -30,18 +30,33 @@ header {
 .navbar-resume:hover {
   color: red;
 }
-
+.card-body {
+  background-color: black;
+  right: 15%;
+}
 body {
   background-color: black;
   font-family: "Dosis";
-  font-size: 50px;
+  font-size: 40px;  
   color: white;
 }
-
-#content {
-  margin-top: 20%;
+#text {
+  margin-top: 5%;
 }
-
+.just-me {
+  width: 90%;
+}
+.icons {
+  height: 25px;
+}
+#learn-more {
+  color: red;
+  font-size: 50%;
+  
+}
+#learn-more:hover{
+  text-decoration: underline;
+}
 a {
   font-size: 20px;
   color: red;
