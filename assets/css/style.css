@@ -8,19 +8,19 @@ header {
 }
 .navbar-left {
   position: absolute;
-  left: 15%;
+  left: 14%;
 }
 .navbar-center {
   position: absolute;
-  left: 22%;
+  left: 21%;
 }
 .navbar-resume {
   position: absolute;
-  left: 29%;
+  left: 30%;
 }
 .navbar-right {
   position: absolute;
-  right: 15%;
+  right: 1%;
   color: red;
 }
 .navbar-right:hover {
