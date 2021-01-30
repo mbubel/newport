@@ -23,6 +23,10 @@ header {
   right: 1%;
   color: red;
 }
+.navbar-portfolio {
+  position: absolute;
+  left: 15%;
+}
 .navbar-right:hover {
   color: white;
 }
@@ -37,14 +41,14 @@ header {
 body {
   background-color: black;
   font-family: "Dosis";
-  font-size: 40px;  
+  font-size: 40px;
   color: white;
 }
 #text {
   margin-top: 5%;
 }
 .just-me {
-  width: 90%;
+  width: 85%;
 }
 .icons {
   height: 25px;
@@ -52,9 +56,8 @@ body {
 #learn-more {
   color: red;
   font-size: 50%;
-  
 }
-#learn-more:hover{
+#learn-more:hover {
   text-decoration: underline;
 }
 a {
@@ -74,4 +77,23 @@ a:link {
 }
 .bio:hover {
   text-decoration: underline;
+}
+
+#image-grid {
+  margin-top: 5%;
+}
+
+#work-day {
+  height: 22%;
+}
+.weather-test {
+  margin-bottom: 2%;
+}
+
+.burger {
+  margin-top: 3%;
+}
+
+.img-thumbnail:hover {
+  opacity: 0.4;
 }
