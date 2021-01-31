@@ -100,3 +100,16 @@ a:link {
 .img-thumbnail:hover {
   opacity: 0.4;
 }
+
+.bio-image {
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  height: 800px;
+}
+
+.bio-text {
+  z-index: 1;
+  margin-top: 7%;
+  font-size: medium;
+}
